@@ -1,0 +1,1 @@
+# tratamentos-erros-clean-code
