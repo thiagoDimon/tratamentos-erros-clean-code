@@ -1,0 +1,18 @@
+abr. 10, 2025 10:33:12 PM org.example.Torneio adicionarTime
+GRAVE: Erro ao adicionar time: 
+java.lang.IllegalAccessException: Nome do time inválido!
+	at org.example.Torneio.adicionarTime(Torneio.java:24)
+	at org.example.Main.main(Main.java:9)
+
+abr. 10, 2025 10:33:12 PM org.example.Torneio criarPartida
+GRAVE: Erro ao criar partida entre Brasil x Argentina
+java.lang.IllegalArgumentException: Quantidade de gols inválido!
+	at org.example.Torneio.criarPartida(Torneio.java:38)
+	at org.example.Main.main(Main.java:17)
+
+abr. 10, 2025 10:33:12 PM org.example.Torneio criarPartida
+GRAVE: Erro ao criar partida entre Argentina x Nigéria
+java.lang.IllegalArgumentException: Um dos times informados não está cadastrado!
+	at org.example.Torneio.criarPartida(Torneio.java:35)
+	at org.example.Main.main(Main.java:21)
+
