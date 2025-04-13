@@ -8,7 +8,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 ## Construindo a imagem Docker
 ```bash
-docker build -t java-app
+docker build -t java-app .
 ```
 
 ## Executando a imagem Docker criada
